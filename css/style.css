@@ -24,6 +24,10 @@ ul {
 
 }
 
+li {
+    padding-left: 0px;
+}
+
 a {
     text-decoration: none;
     color: #137EC2;
@@ -52,8 +56,8 @@ div>img {
     font-size: 16px;
 }
 
+
 [class*=card] {
-    margin-right: 20px;
     background-color: black;
     height: 70px;
     float: left;
@@ -61,15 +65,14 @@ div>img {
     font-size: 12px;
     margin-bottom: 3rem;
     box-shadow: -6px -5px 10px 0px #b3aaaa;
+}
 
+[class*=card]:not(:nth-of-type(3n+4)) {
+    margin-right: 20px;
 }
 
 [class*=bio] {
     height: 100%;
     text-align: initial;
-}
-
-.card3,
-.card6 {
-    margin-right: 0;
+    display: inline-block;
 }
