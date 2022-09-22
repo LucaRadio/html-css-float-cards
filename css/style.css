@@ -61,7 +61,7 @@ div>img {
     background-color: black;
     height: 70px;
     float: left;
-    width: calc((100% / 3) - 20px);
+    width: calc(((100% / 3) - (40px / 3)));
     font-size: 12px;
     margin-bottom: 3rem;
     box-shadow: -6px -5px 10px 0px #b3aaaa;
